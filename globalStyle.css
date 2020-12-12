@@ -1,0 +1,14 @@
+/* global presenting setting for page */
+
+* {
+    font-size: 24px;
+}
+
+
+/* selection elements of the page setup */
+
+::selection {
+    color: red;
+    background: #FF5E99;
+    font-size: 2em;
+}
