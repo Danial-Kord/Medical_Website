@@ -18,6 +18,22 @@ button:hover {
     cursor: pointer;
 }
 
+input {
+    padding-right: 5px;
+    margin-left: -5px;
+    /* 5 padding to right needs reverce for left to be in center*/
+    border-style: solid;
+    border-width: 3px;
+    direction: rtl;
+}
+
+
+/* text hint of input field design */
+
+input::placeholder {
+    color: gray;
+}
+
 
 /* selection elements of the page setup */
 

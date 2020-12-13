@@ -13,6 +13,8 @@ body {
 /* header */
 
 #header {
+    z-index: 1;
+    /* so the header drob downs be on the other part of the page */
     margin-top: 2%;
     direction: rtl;
     margin-left: auto;
@@ -24,7 +26,8 @@ body {
 /* default header buttons look like */
 
 a {
-    color: gray;
+    font-size: larger;
+    color: black;
     font-weight: bold;
 }
 
@@ -73,3 +76,77 @@ li:hover .dropdown {
 
 
 /* /////////////////// */
+
+
+/* Search Bar Section Start*/
+
+#searchBarSection {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    /* so it will be in center and rtl direction */
+    background-image: url(./Resources/searchBackground.png);
+    background-color: rgb(152, 80, 245);
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2%;
+    border-radius: 15px;
+}
+
+#searchBarSection h1 {
+    font-size: 46px;
+    color: white;
+}
+
+#searchBar {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+#searchBar>input {
+    width: 36vw;
+    height: 8vh;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: white;
+}
+
+#searchButton {
+    border-radius: 15px 0px 0px 15px;
+    border-style: solid;
+    background-color: #FB815E;
+    border-color: #FB815E;
+    color: white;
+    position: absolute;
+    height: 100%;
+    left: -6px;
+}
+
+#cityButton {
+    position: absolute;
+    height: 70%;
+    left: 13.8%;
+    border-style: solid;
+    background-color: white;
+    border-color: white;
+    border-right: 2px solid gray;
+    margin-top: 10px;
+    color: gray;
+    padding-left: 80px;
+}
+
+#searchButton:hover {
+    background-color: #f56841;
+    border-color: #f56841;
+    color: rebeccapurple;
+}
+
+
+/* Search Bar section End */
