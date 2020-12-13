@@ -1,0 +1,23 @@
+@import "globalStyle.css";
+
+/* main page design peroperties */
+body{
+  display: flex; /*2 main sections are horizontaly designed*/
+}
+
+/* design of login div */
+#login_section{
+  flex: auto; /*the result is getting the most space that the elemnt can get*/
+}
+
+
+/* right side of page design */
+#right_background{
+   
+    margin: auto;
+    height: 100vh;
+    background-color: lightblue;
+    background-size: cover;
+
+}
+#right_background:first-child{}

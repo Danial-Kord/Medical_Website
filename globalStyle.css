@@ -1,14 +1,14 @@
 /* global presenting setting for page */
 
 * {
-    font-size: 24px;
+    /* font-size: 24px; */
 }
 
 
 /* selection elements of the page setup */
 
 ::selection {
-    color: red;
-    background: #FF5E99;
+    color: blue;
+    background: lightblue;
     font-size: 2em;
 }
