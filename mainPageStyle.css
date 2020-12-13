@@ -129,18 +129,26 @@ li:hover .dropdown {
     left: -6px;
 }
 
+
+/* tehran button near the input button design */
+
 #cityButton {
     position: absolute;
     height: 70%;
     left: 13.8%;
+    /* so the 2 left side button wont collaps */
     border-style: solid;
     background-color: white;
     border-color: white;
+    /* so the border layout wont be visible */
     border-right: 2px solid gray;
     margin-top: 10px;
     color: gray;
     padding-left: 80px;
 }
+
+
+/* on button hover actions */
 
 #searchButton:hover {
     background-color: #f56841;
@@ -150,3 +158,54 @@ li:hover .dropdown {
 
 
 /* Search Bar section End */
+
+#technitionSection {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    background-color: white;
+    border-color: white;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2%;
+    border-radius: 15px;
+}
+
+#technitionSection h2 {
+    color: gray;
+}
+
+
+/* main div child elements have to be in row */
+
+#technitionSection>div {
+    margin-right: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#technitionSection>#technitionSectionHeader>button {
+    color: #1780DF;
+    border-style: solid;
+    background-color: white;
+    border-color: white;
+    position: absolute;
+    left: 10px;
+    top: 36%;
+}
+
+
+/* every technition bar image is above its text so layout is flex column */
+
+.technitionBar {
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+}
+
+
+/* technition part Started */
