@@ -6,9 +6,15 @@
     direction: rtl;
 }
 
+body {
+    font-family: displayfont;
+}
 
-body{
-  font-family: displayfont;
+
+/* id mouse is over the button setting  */
+
+button:hover {
+    cursor: pointer;
 }
 
 
@@ -17,5 +23,5 @@ body{
 ::selection {
     color: blue;
     background: lightblue;
-    font-size: 2em;
+    font-size: 2%;
 }
