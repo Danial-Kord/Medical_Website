@@ -1,7 +1,14 @@
 /* global presenting setting for page */
 
-* {
-    /* font-size: 24px; */
+@font-face {
+    font-family: "displayfont";
+    src: url("./Resources/fonts/B Zar_0.ttf");
+    direction: rtl;
+}
+
+
+body{
+  font-family: displayfont;
 }
 
 

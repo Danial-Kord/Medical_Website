@@ -1,23 +1,55 @@
 @import "globalStyle.css";
 
 /* main page design peroperties */
-body{
-  display: flex; /*2 main sections are horizontaly designed*/
+
+body {
+    margin: auto;
+    display: flex;
+    /*2 main sections are horizontaly designed*/
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
+
 /* design of login div */
-#login_section{
-  flex: auto; /*the result is getting the most space that the elemnt can get*/
+
+#login_section {
+    display: flex;
+    flex: auto;
+    justify-content: space-evenly;
+    flex-direction: column;
+    /*the result is getting the most space that the elemnt can get*/
+    justify-content: center;
+    text-align: center;
+}
+
+#login_section>* {
+    flex-direction: column;
 }
 
 
 /* right side of page design */
-#right_background{
-   
-    margin: auto;
-    height: 100vh;
-    background-color: lightblue;
-    background-size: cover;
 
+#right_background {
+    text-align: center;
+    background-color: #1780DF;
+    height: 100vh;
+    font-weight: bold;
+    color: white;
 }
-#right_background:first-child{}
+
+#right_background>* {
+    margin-top: 0vh;
+    margin-bottom: 5vh;
+}
+
+#logo {
+    padding-left: 8vw;
+    padding-right: 8vw;
+    margin: 0px;
+    padding-bottom: 0px;
+    padding-top: 30vh;
+    height: 12vh;
+    width: 20vw;
+}
