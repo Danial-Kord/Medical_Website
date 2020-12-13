@@ -1,0 +1,45 @@
+@import "globalStyle.css";
+
+/* main page design peroperties */
+
+body {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    /*every section is below another so the display is flex column*/
+}
+
+#header {
+    margin-top: 2%;
+    direction: rtl;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    color: gray;
+    font-weight: bold;
+}
+
+
+/* hover header */
+
+li a:hover {
+    color: #FB815E;
+}
+
+
+/* /////////////////// */
+
+li svg {
+    width: 20px;
+    height: 20px;
+    margin-top: 0px;
+    margin-bottom: -6px;
+    margin-left: 5px;
+}
+
+li {
+    margin-left: 2vw;
+    display: inline;
+}
