@@ -91,7 +91,8 @@ li:hover .dropdown {
     text-align: center;
     margin-left: 10%;
     margin-right: 10%;
-    margin-top: 2%;
+    margin-top: 40px;
+    margin-bottom: 100px;
     border-radius: 15px;
 }
 
@@ -170,7 +171,8 @@ li:hover .dropdown {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 2%;
+    margin-top: 40px;
+    margin-bottom: 100px;
     border-radius: 15px;
 }
 
@@ -184,7 +186,7 @@ li:hover .dropdown {
 #technitionSection>div {
     margin-right: 10px;
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
 }
 
 #technitionSection>#technitionSectionHeader>button {
@@ -241,9 +243,9 @@ li:hover .dropdown {
 #comentsSection {
     position: relative;
     display: flex;
-    flex-direction: row-reverse;
-    margin-top: 2%;
-    margin-bottom: 30px;
+    flex-direction: row;
+    margin-top: 40px;
+    padding-bottom: 100px;
     background-color: aliceblue;
 }
 
@@ -335,6 +337,7 @@ li:hover .dropdown {
 
 #fastLinkSection {
     margin-top: 40px;
+    padding-bottom: 100px;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -378,7 +381,7 @@ li:hover .dropdown {
 
 #downloadSection {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     margin-left: 5vw;
     margin-right: 5vw;
     margin-top: 15vh;
@@ -427,7 +430,8 @@ li:hover .dropdown {
     margin-right: 20px;
 }
 
-#sendLink>div {
+
+/* #sendLink>div {
     position: absolute;
     width: 2vw;
     height: 100%;
@@ -436,11 +440,104 @@ li:hover .dropdown {
     transition: 1s;
     right: 0px;
     top: 0px;
-}
-
-#sendLink>div:hover {
-    width: 100%;
-}
+} */
 
 
 /* download panel Ended */
+
+
+/* cover page started*/
+
+.coverPage {
+    background-color: blue;
+    margin-top: 80px;
+    padding-top: 300px;
+    padding-bottom: 100px;
+    color: white;
+    text-align: center;
+}
+
+.coverPage>div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.coverLink {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.coverLink a {
+    font-size: x-large;
+    color: white;
+    text-align: center;
+    border-top: 1px solid white;
+}
+
+#coverPageMainPanel {
+    margin-top: -150px;
+}
+
+.socialMedia {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.solidLine {
+    width: 25vw;
+    height: 25vh;
+    margin: auto;
+    display: flex;
+}
+
+.solidLine>:first-child {
+    width: 25vw;
+    height: 25vh;
+    padding: 1px;
+}
+
+.solidLine>:last-child {
+    width: 25vw;
+    height: 25vh;
+    padding: 1px;
+    border-right: 1px solid white;
+}
+
+.signUpCoverPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.signUpCoverPage>div>input {
+    width: 9.5vw;
+    height: 4vh;
+    border-radius: 5px;
+    margin-left: 0.1px;
+    margin-bottom: 10px;
+    border-width: 1.5px;
+}
+
+.signUpCoverPage>input {
+    width: 20vw;
+    height: 4vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border-width: 1.5px;
+}
+
+.signUpCoverPage>.defaultbutton {
+    position: relative;
+    width: 21vw;
+    height: 6vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+
+/* cover page ended */

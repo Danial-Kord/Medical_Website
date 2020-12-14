@@ -8,6 +8,7 @@
 
 body {
     font-family: displayfont;
+    direction: rtl;
 }
 
 
@@ -18,6 +19,24 @@ body {
     border-radius: 15px;
     border-style: none;
     color: white;
+}
+
+
+/* button animation with transition */
+
+.buttonTransition {
+    position: absolute;
+    width: 3vw;
+    height: 100%;
+    background-color: rgba(252, 156, 129, 0.5);
+    border-radius: inherit;
+    transition: 1.5s;
+    right: 0px;
+    top: 0px;
+}
+
+.buttonTransition:hover {
+    width: 100%;
 }
 
 
@@ -46,6 +65,14 @@ input {
 
 input::placeholder {
     color: gray;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    font-size: larger;
 }
 
 
