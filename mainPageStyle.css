@@ -159,6 +159,9 @@ li:hover .dropdown {
 
 /* Search Bar section End */
 
+
+/* technition part Started */
+
 #technitionSection {
     position: relative;
     display: flex;
@@ -227,4 +230,79 @@ li:hover .dropdown {
 }
 
 
-/* technition part Started */
+/* technition part Ended */
+
+
+/* Cooment section started */
+
+#comentsSection {
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 2%;
+    margin-bottom: 30px;
+    background-color: aliceblue;
+}
+
+#comentsSection> :first-child {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-right: 15%;
+}
+
+#commentPanel {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-right: 14%;
+    border-radius: 15px;
+    padding: 10px;
+    width: 36vw;
+    height: 45vh;
+    background-color: #E5F2FE;
+    border-style: solid;
+    border-color: blue;
+    direction: rtl;
+}
+
+#commentPanel>div {
+    border-top: 2px dotted black;
+    margin-top: 20%;
+    display: flex;
+    flex-direction: row;
+}
+
+#commentPanel>div>img {
+    width: 50px;
+    height: 50px;
+    margin-top: 18px;
+    margin-left: 20px;
+}
+
+#commentPanel>div>div>:first-child {
+    margin-top: 14px;
+    margin-bottom: -20px;
+}
+
+
+/* button position absulote with the releative dad position */
+
+#commentPanel>div>button {
+    position: absolute;
+    left: 5%;
+    bottom: 10%;
+    width: 32%;
+    height: 8%;
+    border-radius: 15px;
+    background-color: #FB815E;
+    border-style: none;
+    color: white;
+}
+
+#commentPanel>div>button:hover {
+    background-color: #f56841;
+}
+
+
+/* Cooment section ended */
