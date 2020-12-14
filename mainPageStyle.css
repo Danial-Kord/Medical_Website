@@ -193,7 +193,7 @@ li:hover .dropdown {
     border-color: white;
     position: absolute;
     left: 10px;
-    top: 36%;
+    top: 12%;
 }
 
 
@@ -204,7 +204,26 @@ li:hover .dropdown {
     padding: 5px;
     display: flex;
     flex-direction: column;
-    background-color: gray;
+    background-color: white;
+    border-style: solid;
+    border-color: gray;
+    border-width: 1px;
+    border-radius: 15px;
+}
+
+.technitionBar>div {
+    margin: 30px;
+    padding: 15px;
+    border-style: solid;
+    border-color: gray;
+    width: 60px;
+    border-width: 1px;
+    border-radius: 15px;
+}
+
+.technitionBar:hover {
+    cursor: pointer;
+    box-shadow: 0px 5px 5px gray;
 }
 
 
