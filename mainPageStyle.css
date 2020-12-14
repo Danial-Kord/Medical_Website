@@ -170,8 +170,8 @@ li:hover .dropdown {
     background-color: white;
     border-color: white;
     text-align: center;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 2%;
     border-radius: 15px;
 }
@@ -197,6 +197,11 @@ li:hover .dropdown {
     position: absolute;
     left: 10px;
     top: 12%;
+}
+
+#technitionSection>:last-child {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -266,21 +271,21 @@ li:hover .dropdown {
     direction: rtl;
 }
 
-#commentPanel>div {
+.comment {
     border-top: 2px dotted black;
     margin-top: 20%;
     display: flex;
     flex-direction: row;
 }
 
-#commentPanel>div>img {
+.comment>img {
     width: 50px;
     height: 50px;
     margin-top: 18px;
     margin-left: 20px;
 }
 
-#commentPanel>div>div>:first-child {
+.comment>div>:first-child {
     margin-top: 14px;
     margin-bottom: -20px;
 }
@@ -288,16 +293,13 @@ li:hover .dropdown {
 
 /* button position absulote with the releative dad position */
 
-#commentPanel>div>button {
+.comment>button {
     position: absolute;
     left: 5%;
     bottom: 10%;
     width: 32%;
     height: 8%;
     border-radius: 15px;
-    background-color: #FB815E;
-    border-style: none;
-    color: white;
 }
 
 #commentPanel>div>button:hover {
@@ -305,4 +307,70 @@ li:hover .dropdown {
 }
 
 
+/* making a rotated cube with padding background and rotation of it */
+
+#virtualCube {
+    position: absolute;
+    padding: 20px;
+    background-color: inherit;
+    border-style: inherit;
+    border-color: inherit;
+    bottom: -23.2px;
+    left: 80px;
+    rotate: 45deg;
+    border-left: none;
+    border-top: none;
+}
+
+#commentPanel>p {
+    font-size: larger;
+    position: absolute;
+    bottom: -90px;
+    left: 90px;
+}
+
+
 /* Cooment section ended */
+
+
+/* fastLinkSection Started */
+
+#fastLinkSection {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    background-image: url(./Resources/pngtree-fantasy-blue-gradient-background-gradientgradient-backgroundgradientposter-backgroundppt-image_56537.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#fastLinks {
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: center;
+    margin-left: 16%;
+    margin-right: 16%;
+}
+
+.fastLink {
+    margin-left: 3vw;
+    margin-right: 3vw;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.fastLink>img {
+    width: 20vw;
+}
+
+.fastLink>.defaultbutton {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+/* fastLinkSection ended */

@@ -11,10 +11,21 @@ body {
 }
 
 
+/* deaultButtonPeroperties */
+
+.defaultbutton {
+    background-color: #FB815E;
+    border-radius: 15px;
+    border-style: none;
+    color: white;
+}
+
+
 /* id mouse is over the button setting  */
 
 button:hover {
     cursor: pointer;
+    background-color: #f56841;
 }
 
 input {
