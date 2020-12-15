@@ -13,6 +13,7 @@ body {
 /* header */
 
 #header {
+    display: flex;
     z-index: 1;
     /* so the header drob downs be on the other part of the page */
     margin-top: 2%;
@@ -20,6 +21,28 @@ body {
     margin-left: auto;
     margin-right: auto;
     /* so it will be in center and rtl direction */
+}
+
+#header>.defaultbutton {
+    position: relative;
+    width: 8vw;
+    height: 5vh;
+    border-radius: 5px;
+    margin: auto;
+    margin-right: 50px;
+    background-color: rgb(237, 237, 237);
+    color: blue;
+    text-align: center;
+}
+
+#header>.defaultbutton:hover {
+    color: #FB815E;
+}
+
+#header>.defaultbutton>svg {
+    position: absolute;
+    left: 5%;
+    top: 20%;
 }
 
 
@@ -271,6 +294,12 @@ li:hover .dropdown {
     direction: rtl;
 }
 
+#commentPanel>img {
+    position: absolute;
+    top: -5vh;
+    width: 4vw;
+}
+
 .comment {
     border-top: 2px dotted black;
     margin-top: 20%;
@@ -367,10 +396,19 @@ li:hover .dropdown {
 }
 
 .fastLink>.defaultbutton {
+    position: relative;
     padding-left: 40px;
     padding-right: 40px;
     padding-top: 15px;
     padding-bottom: 15px;
+    justify-content: center;
+}
+
+.fastLink>.defaultbutton>svg {
+    position: absolute;
+    left: 5%;
+    top: 25%;
+    bottom: auto;
 }
 
 
@@ -430,6 +468,11 @@ li:hover .dropdown {
     margin-right: 20px;
 }
 
+#sendLink>svg {
+    position: absolute;
+    right: 8%;
+}
+
 
 /* #sendLink>div {
     position: absolute;
@@ -481,9 +524,16 @@ li:hover .dropdown {
     margin-top: -150px;
 }
 
-.socialMedia {
-    margin-right: 5px;
-    margin-left: 5px;
+#coverPageMainPanel>div {
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+#coverPageMainPanel>div>.socialMedia {
+    margin-right: 50px;
+    margin-left: 50px;
+    color: white;
 }
 
 .solidLine {
@@ -537,6 +587,23 @@ li:hover .dropdown {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 10px;
+}
+
+.signUpCoverPage>.defaultbutton>svg {
+    position: absolute;
+    right: 5%;
+}
+
+.signUpCoverPage>:last-child>.socialMedia {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.signUpCoverPage>:last-child>.socialMedia>img {
+    background-color: white;
+    width: 120px;
+    height: 160px;
+    border-radius: 15px;
 }
 
 
